@@ -59,8 +59,8 @@ function App() {
       setStatus={setStatus}
       setItemsLeft={setItemsLeft}
       />
+      <h2 style={{textAlign: 'center'}}>{itemsLeft} items left</h2>
       <TodoList filteredTodos={filteredTodos} setTodos={setTodos} todos={todos} itemsLeft={itemsLeft} setItemsLeft={setItemsLeft}/>
-      <h2>{itemsLeft} items left</h2>
     </div>
   );
 }
